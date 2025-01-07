@@ -4,14 +4,17 @@
 
 1. **Set Environment Variables**  
 
-   ```bash
-   export USER_REQUEST_LIMIT=3
-   export GLOBAL_REQUEST_LIMIT=10
+```bash
+
+export USER_REQUEST_LIMIT=3
+export GLOBAL_REQUEST_LIMIT=10
 
 go run cmd/server/main.go
 
 ```
 
+
+2. **execute curl**  
 
 
 `curl "http://localhost:8088/request?client_id=user1"`
